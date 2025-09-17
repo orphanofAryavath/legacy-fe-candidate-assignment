@@ -7,22 +7,6 @@ A full-stack Web3 application built with **React** (frontend) and **Node.js + Ex
 - Send the signed message to the backend for verification
 - View verification results including signer address and validity
 
----
-
-## Table of Contents
-
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-  - [Clone the repository](#clone-the-repository)
-  - [Backend Setup](#backend-setup)
-  - [Frontend Setup](#frontend-setup)
-- [Running the App](#running-the-app)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Resources](#resources)
-- [Notes](#notes)
-
----
 
 ## Prerequisites
 
@@ -33,6 +17,18 @@ A full-stack Web3 application built with **React** (frontend) and **Node.js + Ex
 ---
 
 ## Installation
+
+### Backend Setup
+- cd backend folder
+- npm i
+- npx nodemon index.js
+
+### frontend Setup 
+- cd frontend folder
+- npm i
+-  replace your env key of  **Dynamic.xyz headless wallet**  in **main.jsx**
+      environmentId: envId
+- make sure you have wallet to connect to project      
 
 ### Clone the repository
 
