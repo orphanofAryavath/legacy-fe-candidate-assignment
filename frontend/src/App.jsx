@@ -5,7 +5,6 @@ import { Container, Typography, Box, Grid, Paper } from "@mui/material";
 import { useDynamicContext } from "@dynamic-labs/sdk-react";
 
 function App() {
-  const [backendMsg] = useState("Backend will verify after signing");
   const { primaryWallet } = useDynamicContext();
   return (
     <Container maxWidth="md" sx={{ py: 6 }}>
@@ -20,10 +19,7 @@ function App() {
           mb: 4,
         }}>
         <Typography variant="h4" fontWeight="bold" gutterBottom>
-          Frontend is running ✅
-        </Typography>
-        <Typography variant="subtitle1" gutterBottom>
-          {backendMsg}
+          Assigment
         </Typography>
       </Paper>
 
