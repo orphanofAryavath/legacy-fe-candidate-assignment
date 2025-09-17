@@ -14,8 +14,6 @@ A full-stack Web3 application built with **React** (frontend) and **Node.js + Ex
 - npm (or yarn)
 - Git
 
----
-
 ## Installation
 
 ### Backend Setup
