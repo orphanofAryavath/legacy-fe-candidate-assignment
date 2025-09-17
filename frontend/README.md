@@ -1,12 +1,42 @@
-# React + Vite
+# Legacy FE Candidate Assignment - Web3 Message Signer & Verifier
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Web3 application built with **React** (frontend) and **Node.js + Express** (backend) that allows users to:
 
-Currently, two official plugins are available:
+- Authenticate using a **Dynamic.xyz headless wallet** (not the Widget)
+- Enter and sign custom messages
+- Send the signed message to the backend for verification
+- View verification results including signer address and validity
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Table of Contents
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+  - [Clone the repository](#clone-the-repository)
+  - [Backend Setup](#backend-setup)
+  - [Frontend Setup](#frontend-setup)
+- [Running the App](#running-the-app)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Resources](#resources)
+- [Notes](#notes)
+
+---
+
+## Prerequisites
+
+- Node.js v18+
+- npm (or yarn)
+- Git
+
+---
+
+## Installation
+
+### Clone the repository
+
+```bash
+git clone -b himanshu-dev https://github.com/orphanofAryavath/legacy-fe-candidate-assignment.git
+cd legacy-fe-candidate-assignment
+```
